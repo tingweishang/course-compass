@@ -1,7 +1,7 @@
 # 課程羅盤：AI 開發與內容規則
 
 ## 目的與成品
-將使用者提供的課程資料轉成可快速理解、練習與複習的繁體中文網站。這是可持續新增課程的靜態知識庫，不是單次製作的介紹頁。維持無框架、無外部套件、無 API 金鑰；在 Sites 或 GitHub Pages 都能使用。
+將使用者提供的課程資料轉成可快速理解、練習與複習的繁體中文網站。
 
 ## 檔案結構
 - `dist/index.html`：共用頁面骨架與導覽。
@@ -13,7 +13,6 @@
 - `.github/workflows/pages.yml`：GitHub Pages 部署。
 - `.openai/hosting.json`：Sites 身分，不可任意替換 project_id。
 - `README.md`：啟動、內容流程與部署步驟。
-- `SUBMISSION.md`：繳交簡介及規則延伸說明。
 
 ## 內容規格
 每門課必須有：
